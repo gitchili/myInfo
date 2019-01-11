@@ -1,0 +1,22 @@
+{
+  "name": "myinfo",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitchili/myInfo.git"
+  },
+  "author": "@gitchili",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitchili/myInfo/issues"
+  },
+  "homepage": "https://github.com/gitchili/myInfo#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
