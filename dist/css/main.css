@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -81,7 +81,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    color: #fff;
+    color: set-text-color #444;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
